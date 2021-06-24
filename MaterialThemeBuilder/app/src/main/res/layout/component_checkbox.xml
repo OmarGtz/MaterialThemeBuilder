@@ -39,6 +39,7 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginEnd="@dimen/keyline_1"
+        android:buttonTint="?attr/colorSuccess"
       app:layout_constraintBottom_toBottomOf="@+id/checkbox_two"
       app:layout_constraintEnd_toStartOf="@+id/checkbox_two"
       app:layout_constraintHorizontal_bias="0.0"

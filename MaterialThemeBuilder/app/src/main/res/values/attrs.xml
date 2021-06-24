@@ -57,5 +57,19 @@
         <attr name="shapeStrokeColor" format="color"/>
         <attr name="shapeAppearanceAttr" format="reference"/>
     </declare-styleable>
-    
+
+    <!-- custom color for material theming -->
+    <attr name="colorWarning"  format = "color" />
+    <attr name="colorSuccess" format="color"/>
+    <attr name="colorTitleAccent" format="color"/>
+    <attr name="colorPromo" format="color"/>
+    <attr name="colorSubtitleAccent" format="color"/>
+    <attr name="colorTextGrayHighEmphasis" format="color"/>
+    <attr name="colorTextGrayMediumEmphasis" format="color"/>
+    <attr name="colorDividerOnSurface" format="color"/>
+    <attr name="colorShimmer" format="color"/>"
+
+    <!-- custom textAppearance -->
+    <attr name="textAppearanceLink" format="reference" />
+    <attr name="buttonWarnig" format="reference"></attr>
 </resources>

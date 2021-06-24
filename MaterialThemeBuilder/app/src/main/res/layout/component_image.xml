@@ -41,7 +41,7 @@
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/sample_image"
         app:shapeAppearance="?attr/shapeAppearanceMediumComponent"
-        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyTheme.Image"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.Kavak.Image"
         app:strokeColor="?attr/colorPrimary"
         app:strokeWidth="2dp"
         android:layout_marginTop="@dimen/component_label_horizontal_margin"

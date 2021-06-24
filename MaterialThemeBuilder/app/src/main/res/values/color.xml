@@ -42,21 +42,47 @@
 
     <!--Color palette-->
 
-    <color name="purple_200">#bb86fc</color> <!--Color primary (dark)-->
-    <color name="purple_500">#6200ee</color> <!--Color primary (light)-->
-    <color name="purple_600">#4b01d0</color> <!--Color primary variant (dark)-->
-    <color name="purple_700">#3700b3</color> <!--Color primary variant (light)-->
+    <color name="kavak_blue_dark">#0A4080</color>
+    <color name="kavak_blue_medium">#0063C2</color>
+    <color name="kavak_blue_brand">#3374DB</color>
+    <color name="kavak_blue_light">#80A6FF</color>
 
-    <color name="green_200">#03dac6</color> <!--Color secondary-->
-    <color name="green_500">#018786</color> <!--Color secondary variant-->
+    <color name="kavak_black_primary">#171717</color>
+    <color name="kavak_gray_aux">#FBFBFB</color>
+    <color name="kavak_gray_single_a">#666666</color>
+    <color name="kavak_gray_single_d">#E9E9E9</color>
+    <color name="kavak_gray_single_b">#898989</color>
+    <color name="kavak_gray_single_c">#c7c7c7</color>
 
-    <color name="red_200">#cf6679</color> <!--Color error (dark)-->
-    <color name="red_600">#b00020</color> <!--Color error (light)-->
+    <color name="kavak_green_positive">#3EBB6B</color>
+    <color name="kavak_green_positive_dark">#054A1E</color>
+
+
+    <color name="kavak_green_1">#6db8c2</color>
+    <color name="kavak_yellow_1">#FFD580</color>
+    <color name="kavak_yellow_warning">#F4BF30</color>
+
+    <color name="kavak_red_negative">#DD2C2C</color>
+
+    <color name="kavak_orange_1">#FFAD66</color>
+    <color name="kavak_pink_1">#FF80A1</color>
+    <color name="kavak_purple_1">#9880cf</color>
+
+    <color name="kavak_white">#FFFFFF</color>
+
+    <color name="kavak_black_900_alpha_87">#DF000000</color>
+    <color name="kavak_black_900_alpha_60">#99000000</color>
+    <color name="kavak_black_900_alpha_38">#60000000</color>
+    <color name="kavak_white_50_alpha_87">#DDFFFFFF</color>
+    <color name="kavak_white_50_alpha_60">#99FFFFFF</color>
+    <color name="kavak_white_50_alpha_38">#61FFFFFF</color>
+
+    <color name="kavak_white_100">#80FFFFFF</color>
+    <color name="kavak_red_50">#FDF3F2</color>
 
     <!--Color surface (light), color on error (light), -->
     <!--color on surface (dark), color on surface (dark)-->
-    <color name="white_50">#ffffff</color>
-
+    <color name="white_50">#fbfbfb</color>
     <color name="black_800">#121212</color> <!--Color surface (dark)-->
     <!--Color on secondary (light), color on background (light),-->
     <!--color on surface (light)-->
