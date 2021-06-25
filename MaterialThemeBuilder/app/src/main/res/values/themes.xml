@@ -76,7 +76,7 @@
         <!--Component styles-->
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert</item>
         <item name="bottomSheetDialogTheme">@style/ThemeOverlay.MyTheme.BottomSheetDialog</item>
-        <item name="navigationViewStyle">@style/Widget.MyTheme.NavigationView</item>
+        <item name="navigationViewStyle">@style/Widget.Kavak.NavigationView</item>
         <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.PrimarySurface</item>
 
         <!-- update styles button by default -->
@@ -103,5 +103,14 @@
         <item name="colorOnPrimary">@color/kavak_white</item>
         <item name="colorSecondary">@color/kavak_black_primary</item>
         <item name="colorOnSecondary">@color/kavak_white</item>
+    </style>
+
+    <style name="ThemeOverlay.Kavak.NavigationView" parent="">
+        <item name="colorPrimary">@color/kavak_blue_brand</item>
+        <item name="colorOnPrimary">@color/kavak_white</item>
+        <item name="colorSecondary">@color/kavak_black_primary</item>
+        <item name="colorOnSecondary">@color/kavak_white</item>
+        <item name="colorSurface">@color/kavak_blue_brand</item>
+        <item name="colorOnSurface">@color/kavak_white</item>
     </style>
 </resources>

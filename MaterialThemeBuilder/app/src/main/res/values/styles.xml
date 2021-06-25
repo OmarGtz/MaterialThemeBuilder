@@ -62,8 +62,11 @@
     </style>
 
     <!--Navigation Drawer-->
-    <style name="Widget.MyTheme.NavigationView" parent="Widget.MaterialComponents.NavigationView">
+    <style name="Widget.Kavak.NavigationView" parent="Widget.MaterialComponents.NavigationView">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Kavak.NavigationView</item>
         <item name="itemTextAppearance">?attr/textAppearanceBody2</item>
+        <item name="itemIconTint">@color/navigation_item_color</item>
+        <item name="itemTextColor">@color/navigation_item_color</item>
+        <item name="itemShapeFillColor">@color/navigation_item_background_color</item>
     </style>
-
 </resources>
