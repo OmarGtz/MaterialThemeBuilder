@@ -71,5 +71,8 @@
 
     <!-- custom textAppearance -->
     <attr name="textAppearanceLink" format="reference" />
-    <attr name="buttonWarnig" format="reference"></attr>
+
+    <!-- custom attr for rounded buttons styles -->
+    <attr name="roundedButtonStyle" format="reference"/>
+    <attr name="roundedButtonOutlinedStyle" format="reference"/>
 </resources>

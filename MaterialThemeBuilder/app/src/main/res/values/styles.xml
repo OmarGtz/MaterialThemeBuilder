@@ -16,9 +16,6 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-
-    <!--Components-->
-
     <!--Bottom Sheets-->
     <style name="ThemeOverlay.MyTheme.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.Dialog">
         <item name="android:windowIsFloating">false</item>
@@ -29,23 +26,40 @@
         <item name="android:navigationBarColor">?attr/colorSurface</item>
         <item name="android:navigationBarDividerColor" tools:ignore="NewApi">@android:color/transparent</item>
     </style>
+
     <style name="Widget.MyTheme.BottomSheet.Modal" parent="Widget.MaterialComponents.BottomSheet.Modal">
         <item name="shapeAppearanceOverlay">?attr/shapeAppearanceLargeComponent</item>
     </style>
 
-    <style name="Widget.Kavak.Button.Button.Contained" parent="Widget.MaterialComponents.Button">
-        <item name="textAppearanceButton">?attr/textAppearanceButton</item>
-        <item name="textAllCaps">false</item>
-        <item name="android:textSize">@dimen/sp_14</item>
+    <!-- styles for update style buttons by default -->
+
+    <style name="Widget.Kavak.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">?colorSecondary</item>
+        <item name="android:textColor">?colorOnSecondary</item>
     </style>
 
-    <style name="Widget.Kavak.Button.Button.Warning" parent="Widget.MaterialComponents.Button">
-        <item name="textAppearanceButton">?attr/textAppearanceButton</item>
+    <style name="Widget.Kavak.Button.Text" parent="Widget.MaterialComponents.Button.TextButton">
         <item name="textAllCaps">false</item>
-        <item name="backgroundTint">?attr/colorSuccess</item>
-        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">?colorSecondary</item>
+        <item name="iconTint">?colorSecondary</item>
+        <item name="iconPadding">4dp</item>
     </style>
 
+    <style name="Widget.Kavak.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">?colorSecondary</item>
+        <item name="strokeColor">?colorSecondary</item>
+        <item name="iconTint">?colorSecondary</item>
+    </style>
+
+    <!-- custom styles for rounded buttons attrs -->
+    <style name="Widget.Kavak.Button.rounded" parent="Widget.Kavak.Button">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Kavak.Button.rounded</item>
+    </style>
+
+    <style name="Widget.Kavak.Button.Outlined.Rounded" parent="Widget.Kavak.Button.Outlined">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Kavak.Button.rounded</item>
+    </style>
 
     <!--Navigation Drawer-->
     <style name="Widget.MyTheme.NavigationView" parent="Widget.MaterialComponents.NavigationView">

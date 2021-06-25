@@ -23,7 +23,7 @@
         <!--colorPrimary colors map to components and elements, such as app bars and buttons. -->
         <!--colorSecondary colors are most often used as accents on components, such as FABs and -->
         <!--selection controls.-->
-        <item name="colorPrimary">@color/kavak_black_primary</item>
+        <item name="colorPrimary">@color/kavak_blue_brand</item>
         <item name="colorPrimaryVariant">@color/kavak_blue_light</item>
         <item name="colorPrimaryDark">@color/kavak_blue_dark</item>
         <item name="colorSecondary">@color/kavak_white</item>
@@ -78,7 +78,16 @@
         <item name="bottomSheetDialogTheme">@style/ThemeOverlay.MyTheme.BottomSheetDialog</item>
         <item name="navigationViewStyle">@style/Widget.MyTheme.NavigationView</item>
         <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.PrimarySurface</item>
-        <item name="buttonStyle">@style/Widget.Kavak.Button.Button.Warning</item>
+
+        <!-- update styles button by default -->
+        <item name="borderlessButtonStyle">@style/Widget.Kavak.Button.Text</item>
+        <item name="buttonStyle">@style/Widget.Kavak.Button</item>
+        <item name="materialButtonStyle">@style/Widget.Kavak.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.Kavak.Button.Outlined</item>
+        <!-- custom attr styles for rounded buttons -->
+        <item name="roundedButtonStyle">@style/Widget.Kavak.Button.rounded</item>
+        <item name="roundedButtonOutlinedStyle">@style/Widget.Kavak.Button.Outlined.Rounded</item>
+
     </style>
 
     <style name="Base.Theme.MaterialTheming" parent="Theme.MaterialComponents.DayNight.NoActionBar">
@@ -92,7 +101,7 @@
     <style name="ThemeOverlay.Kavak.blue" parent="">
         <item name="colorPrimary">@color/kavak_blue_brand</item>
         <item name="colorOnPrimary">@color/kavak_white</item>
-        <item name="colorSecondary">@color/kavak_green_positive</item>
-        <item name="colorOnSecondary">@color/kavak_gray_aux</item>
+        <item name="colorSecondary">@color/kavak_black_primary</item>
+        <item name="colorOnSecondary">@color/kavak_white</item>
     </style>
 </resources>

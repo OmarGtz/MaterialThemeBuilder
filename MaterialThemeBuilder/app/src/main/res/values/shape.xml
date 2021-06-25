@@ -36,7 +36,7 @@
     <!-- Shape Appearance for small components like buttons, chips -->
     <style name="ShapeAppearance.Kavak.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
         <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">20dp</item>
+        <item name="cornerSize">8dp</item>
     </style>
     <!--Shape Appearance for medium components like cards, alert dialogs-->
     <style name="ShapeAppearance.Kavak.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
@@ -55,9 +55,9 @@
         <item name="cornerSizeTopLeft">50%</item>
     </style>
 
-    <!--Shape Appearance overlay for ShapeableImageView -->
-    <style name="ShapeAppearanceOverlay.Kavak.rentagle.Button" parent="">
+    <!--Shape Appearance overlay for buttons-->
+    <style name="ShapeAppearanceOverlay.Kavak.Button.rounded" parent="">
         <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">2dp</item>
+        <item name="cornerSize">50%</item>
     </style>
 </resources>
