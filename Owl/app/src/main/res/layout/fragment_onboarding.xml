@@ -20,7 +20,7 @@
   <androidx.constraintlayout.widget.ConstraintLayout
       android:layout_width="match_parent"
       android:layout_height="match_parent"
-      android:theme="@style/Owl.Yellow"
+      android:theme="@style/Owl.Blue"
       android:background="?attr/colorPrimarySurface"
       app:paddingTopSystemWindowInsets="@{true}"
       android:clipChildren="false"

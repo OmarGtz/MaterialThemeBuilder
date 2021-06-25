@@ -39,6 +39,8 @@
         app:liftOnScrollTargetViewId="@id/featured_grid"
         android:theme="@style/ThemeOverlay.Owl.Blue.Dark">
 
+
+
       <androidx.appcompat.widget.Toolbar
           android:id="@+id/toolbar"
           android:layout_width="match_parent"

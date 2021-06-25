@@ -21,6 +21,7 @@
     <item name="itemIconTint">@color/bottom_nav_item</item>
     <item name="itemTextColor">@color/bottom_nav_item</item>
     <item name="itemTextAppearanceActive">@style/TextAppearance.Owl.BottomNavigation</item>
+
   </style>
 
   <style name="Widget.Owl.SeekBar" parent="@style/Widget.AppCompat.SeekBar">
