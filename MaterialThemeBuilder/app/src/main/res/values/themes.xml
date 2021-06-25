@@ -75,9 +75,10 @@
 
         <!--Component styles-->
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert</item>
-        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.MyTheme.BottomSheetDialog</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.Kavak.BottomSheetDialog</item>
         <item name="navigationViewStyle">@style/Widget.Kavak.NavigationView</item>
         <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.PrimarySurface</item>
+        <item name="checkboxStyle">@style/Widget.Kavak.Checkbox</item>
 
         <!-- update styles button by default -->
         <item name="borderlessButtonStyle">@style/Widget.Kavak.Button.Text</item>
