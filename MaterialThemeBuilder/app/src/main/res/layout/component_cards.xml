@@ -41,7 +41,6 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginTop="@dimen/component_label_horizontal_margin"
-        android:theme="@style/ThemeOverlay.Kavak.blue"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/label">
 
@@ -100,7 +99,7 @@
               app:layout_constraintTop_toBottomOf="@id/card_title" />
 
             <Button
-              style="@style/Widget.MaterialComponents.Button.TextButton"
+              style="?materialButtonOutlinedStyle"
               android:id="@+id/card_button_one"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
@@ -114,7 +113,7 @@
               app:layout_constraintBottom_toBottomOf="parent" />
 
             <Button
-              style="@style/Widget.MaterialComponents.Button.TextButton"
+              style="?borderlessButtonStyle"
               android:id="@+id/card_button_two"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"

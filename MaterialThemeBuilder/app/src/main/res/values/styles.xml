@@ -75,4 +75,16 @@
         <item name="buttonTint">@color/button_tint</item>
     </style>
 
+    <!--Radio buttons-->
+    <style name="Widget.Kavak.RadioButtons" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="buttonTint">@color/button_tint</item>
+    </style>
+
+    <!--Radio buttons-->
+    <style name="Widget.Kavak.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="thumbTint">@color/swich_tint</item>
+        <item name="trackTint">@color/swich_inverse_tint</item>
+    </style>
+
+
 </resources>

@@ -79,6 +79,7 @@
         <item name="navigationViewStyle">@style/Widget.Kavak.NavigationView</item>
         <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.PrimarySurface</item>
         <item name="checkboxStyle">@style/Widget.Kavak.Checkbox</item>
+        <item name="switchStyle">@style/Widget.Kavak.Switch</item>
 
         <!-- update styles button by default -->
         <item name="borderlessButtonStyle">@style/Widget.Kavak.Button.Text</item>
